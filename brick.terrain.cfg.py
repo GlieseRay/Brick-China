@@ -131,13 +131,12 @@ label_halo = dict(\
 
 composer=dict(\
     prototype='composite.imagemagick',   
-    sources=['landcover', 'roads', 'labels', 'label_halo',
-             #'terrain'
+    sources=['landcover', 'roads', 'labels', 'label_halo','terrain'
              ],
     format=fmt,
     command='''   
     $1 
-#    ( $5 ) -compose softlight -composite    
+    ( $5 ) -compose softlight -composite    
     ( 
         $2
         ( $4 -channel RGBA -blur %(scale)d +channel ) -compose dst-out -composite
