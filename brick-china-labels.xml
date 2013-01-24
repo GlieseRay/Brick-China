@@ -160,156 +160,156 @@
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>6500000</MinScaleDenominator>
     <Filter>([type] = 2) and ([population] &gt; 300)</Filter>
-    <TextSymbolizer size="16" placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer size="16" placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>6500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([type] = 2) and ([population] &gt; 300)</Filter>
-    <TextSymbolizer size="16" placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer size="16" placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 2) and ([population] &gt; 300)</Filter>
-    <TextSymbolizer size="16" placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer size="16" placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([type] = 2) and ([population] &gt; 300)</Filter>
-    <TextSymbolizer size="18" placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer size="18" placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>12500000</MinScaleDenominator>
     <Filter>([type] = 2) and ([population] &gt; 300)</Filter>
-    <TextSymbolizer placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" size="10" ><![CDATA[]]></TextSymbolizer>
+    <TextSymbolizer placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" size="10" ><![CDATA[]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>6500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([type] = 2) and ([population] &gt; 120)</Filter>
-    <TextSymbolizer size="16" placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer size="16" placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 2) and ([population] &gt; 120)</Filter>
-    <TextSymbolizer size="16" placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer size="16" placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([type] = 2) and ([population] &gt; 120)</Filter>
-    <TextSymbolizer size="18" placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer size="18" placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>6500000</MinScaleDenominator>
     <Filter>([type] = 2) and ([population] &gt; 120)</Filter>
-    <TextSymbolizer placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" size="10" ><![CDATA[]]></TextSymbolizer>
+    <TextSymbolizer placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" size="10" ><![CDATA[]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 2)</Filter>
-    <TextSymbolizer size="16" placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer size="16" placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([type] = 2)</Filter>
-    <TextSymbolizer size="18" placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer size="18" placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([type] = 2)</Filter>
-    <TextSymbolizer placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" size="10" ><![CDATA[]]></TextSymbolizer>
+    <TextSymbolizer placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" size="10" ><![CDATA[]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 1) and ([population] &gt; 750)</Filter>
-    <TextSymbolizer size="20" placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer size="20" placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000000</MaxScaleDenominator>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([type] = 1) and ([population] &gt; 750)</Filter>
-    <TextSymbolizer size="18" placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[abbr]]]></TextSymbolizer>
+    <TextSymbolizer size="18" placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[abbr]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([type] = 1) and ([population] &gt; 750)</Filter>
-    <TextSymbolizer size="22" placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer size="22" placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <MinScaleDenominator>12500000</MinScaleDenominator>
     <Filter>([type] = 1) and ([population] &gt; 750)</Filter>
-    <TextSymbolizer size="18" placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[abbr]]]></TextSymbolizer>
+    <TextSymbolizer size="18" placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[abbr]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000000</MinScaleDenominator>
     <Filter>([type] = 1) and ([population] &gt; 750)</Filter>
-    <TextSymbolizer placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" size="10" ><![CDATA[]]></TextSymbolizer>
+    <TextSymbolizer placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" size="10" ><![CDATA[]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 1)</Filter>
-    <TextSymbolizer size="20" placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer size="20" placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([type] = 1)</Filter>
-    <TextSymbolizer size="22" placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer size="22" placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <MinScaleDenominator>12500000</MinScaleDenominator>
     <Filter>([type] = 1)</Filter>
-    <TextSymbolizer size="18" placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[abbr]]]></TextSymbolizer>
+    <TextSymbolizer size="18" placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[abbr]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([type] = 1)</Filter>
-    <TextSymbolizer placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" size="10" ><![CDATA[]]></TextSymbolizer>
+    <TextSymbolizer placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" size="10" ><![CDATA[]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 0)</Filter>
-    <TextSymbolizer size="22" placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer size="22" placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([type] = 0)</Filter>
-    <TextSymbolizer size="28" placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
+    <TextSymbolizer size="28" placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[name]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000000</MaxScaleDenominator>
     <MinScaleDenominator>25000000</MinScaleDenominator>
     <Filter>([type] = 0)</Filter>
-    <TextSymbolizer size="20" placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[abbr]]]></TextSymbolizer>
+    <TextSymbolizer size="20" placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[abbr]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>25000000</MaxScaleDenominator>
     <MinScaleDenominator>12500000</MinScaleDenominator>
     <Filter>([type] = 0)</Filter>
-    <TextSymbolizer size="20" placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[abbr]]]></TextSymbolizer>
+    <TextSymbolizer size="20" placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" ><![CDATA[[abbr]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000000</MinScaleDenominator>
     <Filter>([type] = 0)</Filter>
-    <TextSymbolizer placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" size="10" ><![CDATA[]]></TextSymbolizer>
+    <TextSymbolizer placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" size="10" ><![CDATA[]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>5000</MinScaleDenominator>
     <Filter>([type] &lt; 3)</Filter>
-    <TextSymbolizer placement-type="simple" dx="7" dy="7" placements="N,E,W,NE,SE,S,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" size="10" ><![CDATA[]]></TextSymbolizer>
+    <TextSymbolizer placement-type="simple" dx="7" dy="7" placements="N,S,E,W,NE,14,12" face-name="Songti SC Black" fill="#27201c" halo-fill="#e3e3d8" halo-radius="0" line-spacing="-3" minimum-distance="5" size="10" ><![CDATA[]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>5000</MinScaleDenominator>
