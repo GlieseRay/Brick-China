@@ -5257,7 +5257,10 @@
   </Rule>
 </Style>
 <Layer name="road_z15"
-  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+  maxzoom="50000"
+  cache-features="yes" 
+  >
     <StyleName>road_z15</StyleName>
     <Datasource>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
@@ -5975,7 +5978,10 @@
   </Rule>
 </Style>
 <Layer name="road_z13"
-  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+  maxzoom="100000"
+  minzoom="50000"  
+  >
     <StyleName>road_z13</StyleName>
     <Datasource>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
@@ -6455,7 +6461,10 @@
   </Rule>
 </Style>
 <Layer name="road_z12"
-  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+  maxzoom="200000"
+  minzoom="100000"  
+  >
     <StyleName>road_z12</StyleName>
     <Datasource>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
@@ -6773,7 +6782,10 @@
   </Rule>
 </Style>
 <Layer name="road_z11"
-  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+  maxzoom="400000"
+  minzoom="200000"     
+  >
     <StyleName>road_z11</StyleName>
     <Datasource>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
@@ -7079,7 +7091,10 @@
   </Rule>
 </Style>
 <Layer name="road_z10"
-  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+  maxzoom="750000"
+  minzoom="400000"  
+  >
     <StyleName>road_z10</StyleName>
     <Datasource>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
@@ -7222,7 +7237,9 @@
   </Rule>
 </Style>
 <Layer name="road_overview"
-  status="off"
+  maxzoom="25000000"
+  minzoom="750000"
+  cache-features="yes"
   srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
     <StyleName>road_overview</StyleName>
     <Datasource>
