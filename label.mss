@@ -65,7 +65,7 @@
       text-placement-type: simple;
       text-dx: 7;
       text-dy: 7;
-      text-placements: 'N,E,W,NE,SE,S,14,12';    
+      text-placements: 'N,S,E,W,NE,14,12';    
     }
 //    text-allow-overlap: true;
     //  text-spacing: 16;
