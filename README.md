@@ -1,4 +1,4 @@
-Brick-China
+Brick-China 1.0
 ===========
 
 A Brick Map Theme for China
