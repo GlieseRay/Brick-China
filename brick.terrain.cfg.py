@@ -8,7 +8,7 @@ datadir = '/home/pset/proj/geodata'
 themedir= './themes/Brick_China/'
 cachedir= os.path.join(themedir, 'cache')
 
-tag = 'Brick'
+tag = 'Brick-China'
 tile_size = 256
 
 fmt = 'png'
