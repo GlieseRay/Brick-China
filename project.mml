@@ -1,0 +1,565 @@
+{
+  "bounds": [
+    -180,
+    -85.0511,
+    180,
+    85.0511
+  ],
+  "center": [
+    121.6667,
+    31.1247,
+    15
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss",
+    "roads.mss",
+    "landmass.mss",
+    "label.mss"
+  ],
+  "Layer": [
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape",
+        "srid": "900913"
+      },
+      "extent": [
+        -179.99978348919961,
+        -85.051,
+        180,
+        83.63381093402975
+      ],
+      "class": "",
+      "srs-name": "900913",
+      "advanced": {
+        "srid": "900913"
+      }
+    },
+    {
+      "extent": [
+        -180,
+        -85,
+        180,
+        85
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "(select * from brick_landmass) as foo",
+        "key_field": "",
+        "geometry_field": "the_geom",
+        "extent_cache": "custom",
+        "extent": "-180,-85,180,85",
+        "srid": "4326",
+        "host": "172.26.183.226",
+        "user": "postgres",
+        "password": "123456",
+        "dbname": "siwei_ch"
+      },
+      "id": "landmass",
+      "class": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {
+        "srid": "4326"
+      },
+      "name": "landmass"
+    },
+    {
+      "extent": [
+        -180,
+        -85,
+        180,
+        85
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "(select * from brick_sea) as foo",
+        "key_field": "",
+        "geometry_field": "the_geom",
+        "extent_cache": "custom",
+        "extent": "-180,-85,180,85",
+        "srid": "4326",
+        "host": "172.26.183.226",
+        "user": "postgres",
+        "password": "123456",
+        "dbname": "siwei_ch"
+      },
+      "id": "sea",
+      "class": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {
+        "srid": "4326"
+      },
+      "name": "sea"
+    },
+    {
+      "extent": [
+        -180,
+        -85,
+        180,
+        85
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "(select * from brick_waterbody_table) as foo",
+        "key_field": "",
+        "geometry_field": "the_geom",
+        "extent_cache": "custom",
+        "extent": "-180,-85,180,85",
+        "host": "172.26.183.226",
+        "user": "postgres",
+        "password": "123456",
+        "dbname": "siwei_ch",
+        "id": "waterbody",
+        "project": "Brick-China",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+        "srid": "4326"
+      },
+      "id": "waterbody",
+      "class": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {
+        "srid": "4326"
+      },
+      "name": "waterbody",
+      "geometry": "polygon"
+    },
+    {
+      "extent": [
+        -180,
+        -85,
+        180,
+        85
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "(select * from brick_landusage) as foo",
+        "key_field": "",
+        "geometry_field": "the_geom",
+        "extent_cache": "custom",
+        "extent": "-180,-85,180,85",
+        "srid": "4326",
+        "host": "172.26.183.226",
+        "user": "postgres",
+        "password": "123456",
+        "dbname": "siwei_ch"
+      },
+      "id": "landusage",
+      "class": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {
+        "srid": "4326"
+      },
+      "name": "landusage"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99999999291012,
+        -85.051,
+        179.99999999291012,
+        85.051
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "(select * from brick_building) as foo",
+        "key_field": "",
+        "geometry_field": "the_geom",
+        "extent_cache": "custom",
+        "extent": "-20037508.342,-20037508.342,20037508.342,20037508.342",
+        "srid": "900913",
+        "dbname": "siwei_ch",
+        "host": "172.26.183.226",
+        "user": "postgres",
+        "password": "123456"
+      },
+      "id": "building",
+      "class": "",
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {
+        "srid": "900913"
+      },
+      "name": "building"
+    },
+    {
+      "extent": [
+        -180,
+        -85,
+        180,
+        85
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "(select * from brick_road_z15) as foo",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent_cache": "custom",
+        "extent": "-180, -85,180,85",
+        "host": "172.26.183.226",
+        "user": "postgres",
+        "password": "123456",
+        "dbname": "siwei_ch",
+        "srid": "4326"
+      },
+      "id": "road_z15",
+      "class": "roads",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {
+        "srid": "4326"
+      },
+      "name": "road_z15",
+      "geometry": "linestring"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -180,
+        -85,
+        180,
+        85
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "(select * from brick_road_z14) as foo",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent_cache": "custom",
+        "extent": "-180,-85,180,85",
+        "srid": "4326",
+        "host": "172.26.183.226",
+        "user": "postgres",
+        "password": "123456",
+        "dbname": "siwei_ch"
+      },
+      "id": "road_z14",
+      "class": "roads",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {
+        "srid": "4326"
+      },
+      "name": "road_z14"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -180,
+        -85,
+        180,
+        85
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "(select * from brick_road_z13) as foo",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent_cache": "custom",
+        "extent": "-180,-85,180,85",
+        "srid": "4326",
+        "host": "172.26.183.226",
+        "user": "postgres",
+        "password": "123456",
+        "dbname": "siwei_ch"
+      },
+      "id": "road_z13",
+      "class": "roads",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {
+        "srid": "4326"
+      },
+      "name": "road_z13"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -180,
+        -85,
+        180,
+        85
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "(select * from brick_road_z12) as foo",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent_cache": "custom",
+        "extent": "-180,-85,180,85",
+        "srid": "4326",
+        "host": "172.26.183.226",
+        "user": "postgres",
+        "password": "123456",
+        "dbname": "siwei_ch"
+      },
+      "id": "road_z12",
+      "class": "roads",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {
+        "srid": "4326"
+      },
+      "name": "road_z12"
+    },
+    {
+      "extent": [
+        -180,
+        -85,
+        180,
+        85
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "(select * from brick_road_z11) as foo",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent_cache": "custom",
+        "extent": "-180,-85,180,85",
+        "srid": "4326",
+        "host": "172.26.183.226",
+        "user": "postgres",
+        "password": "123456",
+        "dbname": "siwei_ch"
+      },
+      "id": "road_z11",
+      "class": "roads",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {
+        "srid": "4326"
+      },
+      "name": "road_z11"
+    },
+    {
+      "extent": [
+        -180,
+        -85,
+        180,
+        85
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "(select * from brick_road_z10) as foo",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent_cache": "custom",
+        "extent": "-180,-85,180,85",
+        "srid": "4326",
+        "host": "172.26.183.226",
+        "user": "postgres",
+        "password": "123456",
+        "dbname": "siwei_ch",
+        "id": "road_z10",
+        "project": "Brick-China",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+      },
+      "id": "road_z10",
+      "class": "roads",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {
+        "srid": "4326"
+      },
+      "name": "road_z10"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -180,
+        -85,
+        180,
+        85
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "(select * from brick_road_skeleton) as foo",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent_cache": "custom",
+        "extent": "-180,-85,180,85",
+        "srid": "4326",
+        "host": "172.26.183.226",
+        "user": "postgres",
+        "password": "123456",
+        "dbname": "siwei_ch"
+      },
+      "id": "road_overview",
+      "class": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {
+        "srid": "4326"
+      },
+      "name": "road_overview"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -180,
+        -85,
+        180,
+        85
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "(select * from brick_places) as foo",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent_cache": "custom",
+        "extent": "-180,-85,180,85",
+        "srid": "4326",
+        "host": "172.26.183.226",
+        "user": "postgres",
+        "password": "123456",
+        "dbname": "siwei_ch"
+      },
+      "id": "places-all",
+      "class": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {
+        "srid": "4326"
+      },
+      "name": "places-all"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -180,
+        -85,
+        180,
+        85
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "(select * from brick_road_shield) as foo",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent_cache": "custom",
+        "extent": "-180,-85,180,85",
+        "dbname": "siwei_ch",
+        "host": "172.26.183.226",
+        "user": "postgres",
+        "password": "123456",
+        "srid": "4326",
+        "simplify_geometries": "yes"
+      },
+      "id": "road-shield",
+      "class": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {
+        "srid": "4326",
+        "simplify_geometries": "yes"
+      },
+      "name": "road-shield"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -180,
+        -85,
+        180,
+        85
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "(select * from brick_road_label) as foo",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent_cache": "custom",
+        "extent": "-180,-85,180,85",
+        "host": "172.26.183.226",
+        "user": "postgres",
+        "password": "123456",
+        "dbname": "siwei_ch",
+        "srid": "4326"
+      },
+      "id": "road-label",
+      "class": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {
+        "srid": "4326"
+      },
+      "name": "road-label"
+    },
+    {
+      "extent": [
+        -180,
+        -85,
+        180,
+        85
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "(select * from brick_road_label where min_zoom =10) as foo",
+        "key_field": "",
+        "geometry_field": "way",
+        "extent_cache": "custom",
+        "extent": "-180,-85,180,85",
+        "host": "172.26.183.226",
+        "user": "postgres",
+        "password": "123456",
+        "dbname": "siwei_ch",
+        "srid": "4326"
+      },
+      "id": "road-label-gen1",
+      "class": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {
+        "srid": "4326"
+      },
+      "name": "road-label-gen1"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -180,
+        -85,
+        180,
+        85
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "(select * from brick_landusage_labels) as foo",
+        "key_field": "",
+        "geometry_field": "the_geom",
+        "extent_cache": "custom",
+        "extent": "-180,-85,180,85",
+        "srid": "4326",
+        "host": "172.26.183.226",
+        "user": "postgres",
+        "password": "123456",
+        "dbname": "siwei_ch"
+      },
+      "id": "landusage-label",
+      "class": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {
+        "srid": "4326"
+      },
+      "name": "landusage-label"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "",
+  "description": "",
+  "attribution": ""
+}
