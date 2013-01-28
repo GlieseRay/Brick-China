@@ -28,7 +28,7 @@
 @boundary-color: #888888;
 
 ///// Road
-
+/*
 @highway-body-color: #cc9988;
 @highway-casing-color: #776666;
 
@@ -51,7 +51,36 @@
 @rail-color: #aaa197;
 @rail-casing-color: @land-color;
 @rail-outline-color: @rail-color;
+*/
+// ====================================================================
 
+@land-color: #b8b0a1;
+
+
+@highway-body-color: #cdcdcd;
+@highway-casing-color: #666666;
+
+@major_road-body-color: #d9d9d9;
+@major_road-casing-color: @highway-casing-color;
+@major_road-casing-color-alt: lighten(@highway-casing-color, 30%);
+
+@minor_road-body-color: #f6f3f0;
+@minor_road-casing-color: @highway-casing-color;
+@minor_road-casing-color-alt: lighten(@highway-casing-color, 30%);
+
+@path-body-color: #f6f3f0;
+@path-casing-color: @highway-casing-color;
+@path-casing-color-alt: lighten(@path-casing-color, 25%);
+
+@highway-link-color: lighten(desaturate(@highway-body-color, 10%), 8%);
+@road-dash: 6,2;
+@ferry-color: #53789a;
+@rail-color: #aaa197;
+@rail-casing-color: @land-color;
+@rail-outline-color: @rail-color;
+
+// ====================================================================
+/*
 ///// Font 
 @label-color: #27201c;
 @label-color-alt : #645e5e;
@@ -62,13 +91,31 @@
 @label-font-alt: 'American Typewriter Regular', 'Arial Unicode MS Regular';
 @label-font-heavy: 'American Typewriter Bold', 'Arial Unicode MS Regular';
 @road-font: 'STHeiti Regular';
+*/
+
+
+// ====================================================================
+
+@label-color: #101010;
+@label-color-alt : #3c3c3c; 
+@label_halo-color: white;
+@label-color-blue: @ferry-color;
+
+@label-font: 'Songti SC Black';//,'American Typewriter Condensed', 'Arial Unicode MS Regular';
+@label-font-alt: 'American Typewriter Regular', 'Arial Unicode MS Regular';
+@label-font-heavy: 'American Typewriter Bold', 'Arial Unicode MS Regular';
+@road-font: 'STHeiti Regular';
+
+// ====================================================================
+
 
 ///// Variable depth buffer
-@smart-halo-raidus: 2;
+@smart-halo-raidus: 1;
+
 
 
 Map { 
-  background-color: @water-color; 
+  //background-color: @water-color; 
   //buffer-size: 0;
   font-directory: url('/usr/share/fonts/Mac/');
 }

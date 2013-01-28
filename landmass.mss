@@ -8,6 +8,13 @@
   polygon-gamma: 0.3;
 }
 
+#urban-areas[zoom>=8][zoom<=11] {
+  polygon-fill: lightgrey;
+  polygon-gamma: 1;
+  polygon-opacity: 1;
+
+}
+
 #pier[zoom>11][type='pier'] {
   [zoom=12] { line-width: 1;}
   [zoom=13] { line-width: 1;}
