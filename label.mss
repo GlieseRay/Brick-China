@@ -204,7 +204,8 @@
   {
 	[zoom=11][priority<1],
   	[zoom=12][priority<2],
-    [zoom=13][priority<3],
+    [zoom=13][priority<2],
+    [zoom=14][priority<3],
     {
   		text-name: "[name]";
     }
@@ -221,8 +222,8 @@
   [type='water'],
   [type='pond'],
   {
-    [zoom=14][priority<4],
-    [zoom=15][priority<5],
+    
+    [zoom=15][priority<3],
     {
   		text-name: "[name]";
     }
@@ -282,7 +283,7 @@
   	[zoom=12][priority<1],
     [zoom=13][priority<2],
     [zoom=14][priority<3],
-    [zoom=15][priority<4],
+    [zoom=15][priority<3],
     [zoom>=16]
     {
       ::marker {
@@ -297,11 +298,8 @@
 
   }
   [type='hospital'] {
-  	[zoom=12][priority<1],
-    [zoom=13][priority<2],
-    [zoom=14][priority<3],
-    [zoom=15][priority<4],
-    [zoom=16][priority<5],
+    [zoom=15][priority<5],
+    [zoom=16],
     [zoom>=17],   
     {
       ::marker {
@@ -317,7 +315,7 @@
   [type='university'],[type='college'] {
     [zoom=14][priority<3],
     [zoom=15][priority<4],
-    [zoom=16][priority<5],
+    [zoom=16],
     [zoom>=17],   
     {
       ::marker {
@@ -353,9 +351,9 @@
     [zoom=9][priority<1],
     [zoom=10][priority<1],
 	[zoom=11][priority<1],
-  	[zoom=12][priority<1],
+  	[zoom=12][priority<2],
     [zoom=13][priority<2],
-    [zoom=14][priority<3],
+    [zoom=14][priority<4],
     [zoom=15][priority<4],
     [zoom=16][priority<5],
     [zoom>=17],
@@ -374,7 +372,7 @@
     }  
   }
   [type='cemetery'] {
-    [zoom=14][priority<3],
+    [zoom=14][priority<4],
     [zoom=15][priority<4],
     [zoom=16][priority<5],
     [zoom>=17],
