@@ -28,7 +28,7 @@
 @boundary-color: #888888;
 
 ///// Road
-/*
+
 @highway-body-color: #cc9988;
 @highway-casing-color: #776666;
 
@@ -51,9 +51,9 @@
 @rail-color: #aaa197;
 @rail-casing-color: @land-color;
 @rail-outline-color: @rail-color;
-*/
-// ====================================================================
 
+// ====================================================================
+/*
 @land-color: #b8b0a1;
 
 
@@ -78,9 +78,9 @@
 @rail-color: #aaa197;
 @rail-casing-color: @land-color;
 @rail-outline-color: @rail-color;
-
+*/
 // ====================================================================
-/*
+
 ///// Font 
 @label-color: #27201c;
 @label-color-alt : #645e5e;
@@ -91,11 +91,11 @@
 @label-font-alt: 'American Typewriter Regular', 'Arial Unicode MS Regular';
 @label-font-heavy: 'American Typewriter Bold', 'Arial Unicode MS Regular';
 @road-font: 'STHeiti Regular';
-*/
+
 
 
 // ====================================================================
-
+/*
 @label-color: #101010;
 @label-color-alt : #3c3c3c; 
 @label_halo-color: white;
@@ -105,12 +105,12 @@
 @label-font-alt: 'American Typewriter Regular', 'Arial Unicode MS Regular';
 @label-font-heavy: 'American Typewriter Bold', 'Arial Unicode MS Regular';
 @road-font: 'STHeiti Regular';
-
+*/
 // ====================================================================
 
 
 ///// Variable depth buffer
-@smart-halo-raidus: 1;
+@smart-halo-raidus: 0;
 
 
 

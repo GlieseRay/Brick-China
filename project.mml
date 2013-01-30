@@ -370,7 +370,8 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "road_z11"
+      "name": "road_z11",
+      "status": "off"
     },
     {
       "extent": [
@@ -402,7 +403,8 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "road_z10"
+      "name": "road_z10",
+      "status": "off"
     },
     {
       "geometry": "linestring",
@@ -432,7 +434,8 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "road_overview"
+      "name": "road_overview",
+      "status": "off"
     },
     {
       "geometry": "point",
@@ -462,8 +465,7 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "places-all",
-      "status": "off"
+      "name": "places-all"
     },
     {
       "geometry": "linestring",
@@ -495,8 +497,7 @@
         "srid": "4326",
         "simplify_geometries": "yes"
       },
-      "name": "road-shield",
-      "status": "off"
+      "name": "road-shield"
     },
     {
       "geometry": "polygon",
@@ -526,8 +527,7 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "landusage-label",
-      "status": "off"
+      "name": "landusage-label"
     },
     {
       "geometry": "linestring",
@@ -557,8 +557,7 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "road-label",
-      "status": "off"
+      "name": "road-label"
     },
     {
       "extent": [
@@ -587,8 +586,7 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "road-label-gen1",
-      "status": "off"
+      "name": "road-label-gen1"
     }
   ],
   "scale": 1,

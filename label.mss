@@ -407,8 +407,9 @@
     shield-size: 9;
     shield-allow-overlap: false;
    
-    [zoom>10] {shield-spacing: 200;}
     [zoom<=10] {shield-spacing: 150;}
+    [zoom>10][zoom<15] {shield-spacing: 300;}
+    [zoom>=15] {shield-spacing: 600;}
 
     [zoom=8] { shield-min-distance: 10; }
     [zoom=9] { shield-min-distance: 20; }
@@ -433,9 +434,10 @@
     
     shield-size: 9;
     shield-allow-overlap: false;
-    
-    [zoom>10] {shield-spacing: 200;}
+
     [zoom<=10] {shield-spacing: 150;}
+    [zoom>10][zoom<15] {shield-spacing: 300;}
+    [zoom>=15] {shield-spacing: 600;}
     
     [zoom=8] { shield-min-distance: 10; }
     [zoom=9] { shield-min-distance: 20; }
@@ -444,7 +446,7 @@
     [zoom=12] { shield-min-distance: 120; }
     [zoom=13] { shield-min-distance: 160; }
     [zoom=14] { shield-min-distance: 180; }    
-    [zoom=15] { shield-min-distance: 200; }
+    [zoom=15] { shield-min-distance: 400; }
     [zoom=16] { shield-min-distance: 250; }    
     [zoom>=17] { shield-min-distance: 300; }    
   }
@@ -460,7 +462,8 @@
     shield-size: 9;
     shield-allow-overlap: false;
 
-    shield-spacing: 200;
+    [zoom>12][zoom<15] {shield-spacing: 300;}
+    [zoom>=15] {shield-spacing: 600;}
     
     [zoom=12] { shield-min-distance: 120; }
     [zoom=13] { shield-min-distance: 180; }
@@ -480,7 +483,8 @@
     shield-size: 9;
     shield-allow-overlap: false;
     
-    shield-spacing: 200;
+    [zoom>12][zoom<15] {shield-spacing: 300;}
+    [zoom>=15] {shield-spacing: 600;}
     
     [zoom=12] { shield-min-distance: 120; }
     [zoom=13] { shield-min-distance: 180; }
