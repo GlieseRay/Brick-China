@@ -5,7 +5,7 @@
 ///// Landmass
 
 @land-color: #e3e3d8;
-@water-color: #859db6;
+@water-color: #aabbcc;
 
 ///// Landusage
 
@@ -109,7 +109,7 @@
 
 
 ///// Variable depth buffer
-@smart-halo-raidus: 2;
+@smart-halo-raidus: 0;
 
 
 

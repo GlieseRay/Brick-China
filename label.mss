@@ -50,7 +50,7 @@
 #places-all[zoom<17] {
   
   ::label {
-    text-face-name: @label-font;
+    text-face-name: @road-font;
     text-name: "";
     text-fill: @label-color;
     text-halo-fill: @land-color;
@@ -61,7 +61,14 @@
  //   text-placement: point;
     text-size: 10;
     text-min-distance: 8;
-    [type<3] {
+    [type<2] {
+      text-placement-type: simple;
+      text-dx: 8;
+      text-dy: 8;
+      text-placements: 'N,S,E,W,NE,14,12';    
+    }
+    
+    [type>=2][type<3] {
       text-placement-type: simple;
       text-dx: 7;
       text-dy: 7;
@@ -74,7 +81,7 @@
         [zoom=5]
         {
 	      	text-name: "[abbr]";
-    		text-size: 20;
+    		text-size: 18;
       	}
         [zoom>5][zoom<=11] {
       		text-name: "[name]";
@@ -82,7 +89,7 @@
       	}
         [zoom>11] {
       		text-name: "[name]";
-        	text-size: 28;
+        	text-size: 24;
       	}
     }
     [type=1] {
@@ -90,11 +97,11 @@
         [zoom=5]
         {
       		text-name: "[abbr]";
-        	text-size: 18;
+        	text-size: 16;
       	}
         [zoom>5][zoom<=11] {
       		text-name: "[name]";
-        	text-size: 20;
+        	text-size: 18;
       	}
       	[zoom>11] {
       		text-name: "[name]";
@@ -103,12 +110,12 @@
     }
     
     [type=2] {
-    	[population>300][zoom=6],
+    	[population>500][zoom=6],
         [population>120][zoom=7],
         [zoom>7][zoom<=11]
         {
       		text-name: "[name]";
-        	text-size: 16;
+        	text-size: 14;
       	}
       	[zoom>11]
         {
@@ -122,7 +129,7 @@
         [zoom>8][zoom<=11]
         {
         	text-name: "[name]";
-        	text-size: 14;
+        	text-size: 12;
       	}
         [zoom>11]
         {
@@ -134,10 +141,10 @@
   
 
   ::marker{
-    [type=0][zoom>4],
+    [type=0][zoom>=4],
     [type=1][zoom=4][population>750],
-    [type=1][zoom>5],    
-    [type=2][population>300][zoom=6],
+    [type=1][zoom>=5],    
+    [type=2][population>500][zoom=6],
     [type=2][population>120][zoom=7],
     [type=2][zoom>7],  
     {
