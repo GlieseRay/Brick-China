@@ -101,7 +101,7 @@ landcover = dict(\
     prototype='datasource.mapnik',
     theme=os.path.join(themedir, 'brick-china-background.xml'),
     image_type='png',
-    buffer_size=tile_size*2,
+    buffer_size=0,
     scale_factor=tile_size//256
     )
 
@@ -109,7 +109,7 @@ roads = dict(\
     prototype='datasource.mapnik',
     theme=os.path.join(themedir, 'brick-china-roads.xml'),
     image_type='png',
-    buffer_size=tile_size,
+    buffer_size=0,
     scale_factor=tile_size//256
     )
 
@@ -167,7 +167,7 @@ ROOT = dict(\
                  zoom=8,
                  center=(121.751,31.311),
                  format=fmt,
-                 buffer=0,
+                 buffer=4,
                  tile_size=tile_size,
                  ),
 )
