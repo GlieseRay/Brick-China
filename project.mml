@@ -42,8 +42,7 @@
       "srs-name": "900913",
       "advanced": {
         "srid": "900913"
-      },
-      "status": "off"
+      }
     },
     {
       "extent": [
@@ -72,8 +71,7 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "landmass",
-      "status": "off"
+      "name": "landmass"
     },
     {
       "geometry": "polygon",
@@ -91,8 +89,7 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "urban-areas",
-      "status": "off"
+      "name": "urban-areas"
     },
     {
       "extent": [
@@ -121,8 +118,7 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "sea",
-      "status": "off"
+      "name": "sea"
     },
     {
       "extent": [
@@ -155,8 +151,7 @@
         "srid": "4326"
       },
       "name": "waterbody",
-      "geometry": "polygon",
-      "status": "off"
+      "geometry": "polygon"
     },
     {
       "extent": [
@@ -185,8 +180,7 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "landusage",
-      "status": "off"
+      "name": "landusage"
     },
     {
       "geometry": "polygon",
@@ -216,8 +210,7 @@
       "advanced": {
         "srid": "900913"
       },
-      "name": "building",
-      "status": "off"
+      "name": "building"
     },
     {
       "extent": [
@@ -247,8 +240,7 @@
         "srid": "4326"
       },
       "name": "road_z15",
-      "geometry": "linestring",
-      "status": "off"
+      "geometry": "linestring"
     },
     {
       "geometry": "linestring",
@@ -278,8 +270,7 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "road_z14",
-      "status": "off"
+      "name": "road_z14"
     },
     {
       "geometry": "linestring",
@@ -309,8 +300,7 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "road_z13",
-      "status": "off"
+      "name": "road_z13"
     },
     {
       "geometry": "linestring",
@@ -340,8 +330,7 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "road_z12",
-      "status": "off"
+      "name": "road_z12"
     },
     {
       "extent": [
@@ -370,8 +359,7 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "road_z11",
-      "status": "off"
+      "name": "road_z11"
     },
     {
       "extent": [
@@ -403,8 +391,7 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "road_z10",
-      "status": "off"
+      "name": "road_z10"
     },
     {
       "geometry": "linestring",
@@ -434,8 +421,7 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "road_overview",
-      "status": "off"
+      "name": "road_overview"
     },
     {
       "geometry": "point",
@@ -548,7 +534,10 @@
         "user": "postgres",
         "password": "123456",
         "dbname": "siwei_ch",
-        "srid": "4326"
+        "srid": "4326",
+        "id": "road-label",
+        "project": "Brick-China",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
       },
       "id": "road-label",
       "class": "",

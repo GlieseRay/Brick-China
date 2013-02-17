@@ -1,4 +1,4 @@
-/*
+
 ///////////////////////////////////////////////////
 // Landmass
 ///////////////////////////////////////////////////
@@ -8,10 +8,10 @@
   polygon-gamma: 0.3;
 }
 
-#urban-areas[zoom>=8][zoom<=11] {
-  polygon-fill: lightgrey;
+#urban-areas[zoom>=8][zoom<=12] {
+  polygon-fill: #d7d3c6;
   polygon-gamma: 1;
-  polygon-opacity: 1;
+  polygon-opacity: 0.6;
 
 }
 
@@ -57,7 +57,7 @@
 }
 
 #waterbody[zoom>5][zoom<=9][area>1500000],
-#waterbody[zoom>9][zoom<=11][area>100000],
+#waterbody[zoom>9][zoom<=11][area>500000],
 #waterbody[zoom>11] {
   polygon-fill: @water-color;
   polygon-gamma: 0.3;
@@ -272,4 +272,3 @@
     [zoom>17]{ line-width:5; line-smooth: 0.7; }
   }
 }
-*/

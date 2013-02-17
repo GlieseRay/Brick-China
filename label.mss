@@ -173,13 +173,10 @@
   text-halo-radius: @smart-halo-raidus;
   text-wrap-width: 60;
   text-placement: point;
-  text-size: 14;
+  text-size: 12;
   text-min-distance: 10;
-
-  [type='aerodrome'], [type='railway'], [type='university'], {
-    text-size: 14;
-  }
   
+  [zoom>=16] {text-size: 14;}
   //// Render control
   
   [type='nature_reserve'],
@@ -313,7 +310,6 @@
     }  
   }
   [type='university'],[type='college'] {
-    [zoom=14][priority<3],
     [zoom=15][priority<4],
     [zoom=16],
     [zoom>=17],   
@@ -506,11 +502,28 @@
   text-halo-fill: @land-color;
   text-halo-radius: 1;
   text-placement: line;
-  text-character-spacing: 4;
+  text-character-spacing: 2;
   text-label-position-tolerance: 16;
   text-max-char-angle-delta: 20;
-  text-size: 14;
+  text-size: 12;
   
+  [kind='motorway'], 
+  [kind='motorway_link'] {
+  	text-halo-fill: @highway-body-color;
+  }
+  [kind='trunk'],
+  [kind='trunk_link'] {
+    text-halo-fill: @highway-body-color;
+  }
+  
+  [kind='primary'],
+  [kind='primary_link'],
+  [kind='secondary'],
+  [kind='secondary_link'],
+  [kind='tertiary'],
+  [kind='tertiary_link'] {
+    text-halo-fill: @major_road-body-color;
+  }
 
   [priority>=3] { text-fill: @label-color-alt; }
  
@@ -528,26 +541,29 @@
   
   [zoom=14][priority<=3] { 
     text-name: "[name_abbr]";
-    text-size: 14;
+    text-size: 12;
     text-min-distance: 160;
     text-spacing: 180;
   }
   [zoom=15][priority<=6] { 
     text-name: "[name_abbr]";
-    text-size: 14;
+    text-size: 12;
   	text-min-distance: 120;
     text-spacing: 180;
+    text-character-spacing: 4;
   }
   [zoom=16][priority<=7] {
     text-name: "[name]";
-    text-size: 16;
+    text-size: 12;
   	text-min-distance: 180;
     text-spacing: 180;
+    text-character-spacing: 4;
   }
   [zoom>=17] { 
     text-name: "[name]";
-  	text-size: 20; 
+  	text-size: 16; 
     text-min-distance:240;
     text-spacing: 180;
+    text-character-spacing: 4;
   }
 }

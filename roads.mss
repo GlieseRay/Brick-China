@@ -1,4 +1,4 @@
-/*
+
 #building[zoom>12] {
   polygon-fill:@building-color;
   [zoom>=14] {
@@ -787,4 +787,3 @@
   text-comp-op: multiply;
   text-placement: interior;
 }
-*/

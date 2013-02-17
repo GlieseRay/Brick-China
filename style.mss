@@ -80,7 +80,7 @@
 @rail-outline-color: @rail-color;
 */
 // ====================================================================
-
+/*
 ///// Font 
 @label-color: #27201c;
 @label-color-alt : #645e5e;
@@ -91,26 +91,25 @@
 @label-font-alt: 'American Typewriter Regular', 'Arial Unicode MS Regular';
 @label-font-heavy: 'American Typewriter Bold', 'Arial Unicode MS Regular';
 @road-font: 'STHeiti Regular';
-
+*/
 
 
 // ====================================================================
-/*
-@label-color: #101010;
+
+@label-color: #141414;
 @label-color-alt : #3c3c3c; 
-@label_halo-color: white;
+//@label_halo-color: #888888;
 @label-color-blue: @ferry-color;
 
-@label-font: 'Songti SC Black';//,'American Typewriter Condensed', 'Arial Unicode MS Regular';
-@label-font-alt: 'American Typewriter Regular', 'Arial Unicode MS Regular';
-@label-font-heavy: 'American Typewriter Bold', 'Arial Unicode MS Regular';
-@road-font: 'STHeiti Regular';
-*/
+@label-font: 'Microsoft YaHei Bold';//,'American Typewriter Condensed', 'Arial Unicode MS Regular';
+@label-font-alt: 'Heiti Bold', 'American Typewriter Regular', 'Arial Unicode MS Regular';
+@label-font-heavy: 'Microsoft YaHei Bold', 'American Typewriter Bold', 'Arial Unicode MS Regular';
+@road-font: 'Microsoft YaHei Regular';
 // ====================================================================
 
 
 ///// Variable depth buffer
-@smart-halo-raidus: 0;
+@smart-halo-raidus: 2;
 
 
 
