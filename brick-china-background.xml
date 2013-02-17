@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE Map[]>
-<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" background-color="#859db6" font-directory="/usr/share/fonts/Mac/" maximum-extent="-20037508.34,-20037508.34,20037508.34,20037508.34">
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" font-directory="/usr/share/fonts/Mac/" maximum-extent="-20037508.34,-20037508.34,20037508.34,20037508.34">
 
 <Parameters>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
@@ -20,7 +20,7 @@
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>countries</StyleName>
     <Datasource>
-       <Parameter name="file"><![CDATA[layers/countries/82945364-10m-admin-0-countries.shp]]></Parameter>
+       <Parameter name="file"><![CDATA[/home/ray/Documents/MapBox/project/Brick-China/layers/countries/82945364-10m-admin-0-countries.shp]]></Parameter>
        <Parameter name="type"><![CDATA[shape]]></Parameter>
        <Parameter name="srid"><![CDATA[900913]]></Parameter>
     </Datasource>
@@ -28,7 +28,7 @@
 
 <Style name="landmass" filter-mode="first" >
   <Rule>
-    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <PolygonSymbolizer fill="#e3e3d8" gamma="0.3" />
   </Rule>
 </Style>
@@ -61,15 +61,15 @@
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>urban-areas</StyleName>
     <Datasource>
-       <Parameter name="file"><![CDATA[layers/urban-areas/ee9451c2-10m-urban-areas.shp]]></Parameter>
+       <Parameter name="file"><![CDATA[/home/ray/Documents/MapBox/project/Brick-China/layers/urban-areas/ee9451c2-10m-urban-areas.shp]]></Parameter>
        <Parameter name="type"><![CDATA[shape]]></Parameter>
     </Datasource>
   </Layer>
 
 <Style name="sea" filter-mode="first" >
   <Rule>
-    <MaxScaleDenominator>1500000</MaxScaleDenominator>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <MaxScaleDenominator>3000000</MaxScaleDenominator>
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
 </Style>
 <Layer name="sea"
@@ -95,33 +95,33 @@
     <MaxScaleDenominator>750000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([area] &gt; 1500000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
     <Filter>([area] &gt; 1500000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <Filter>([area] &gt; 1500000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([area] &gt; 500000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <Filter>([area] &gt; 500000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
 </Style>
 <Layer name="waterbody"
@@ -150,407 +150,407 @@
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 100000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>1500000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 100000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 100000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>6500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 100000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
     <MinScaleDenominator>400000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 100000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>6500000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 100000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 100000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 100000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 50000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>1500000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 50000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 50000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>6500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 50000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
     <MinScaleDenominator>400000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 50000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 50000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 50000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 10000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>1500000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 10000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 10000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
     <MinScaleDenominator>400000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 10000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 10000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 10000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 5000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 5000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
     <MinScaleDenominator>400000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 5000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 5000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 5000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 1000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 1000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
     <MinScaleDenominator>400000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 1000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 1000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 500000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 500000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <Filter>([type] = 'swimming_pool') and ([area] &gt; 500000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([area] &gt; 50000) and ([type] = 'swimming_pool')</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <Filter>([area] &gt; 50000) and ([type] = 'swimming_pool')</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>1500000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 100000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>6500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 100000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500000</MaxScaleDenominator>
     <MinScaleDenominator>6500000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 100000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 100000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 100000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
     <MinScaleDenominator>400000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 100000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 100000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 100000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>1500000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 50000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>6500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 50000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 50000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 50000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
     <MinScaleDenominator>400000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 50000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 50000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 50000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>1500000</MinScaleDenominator>
     <Filter>([area] &gt; 10000000) and ([type] = 'fountain')</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([area] &gt; 10000000) and ([type] = 'fountain')</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([area] &gt; 10000000) and ([type] = 'fountain')</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
     <MinScaleDenominator>400000</MinScaleDenominator>
     <Filter>([area] &gt; 10000000) and ([type] = 'fountain')</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
     <Filter>([area] &gt; 10000000) and ([type] = 'fountain')</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <Filter>([area] &gt; 10000000) and ([type] = 'fountain')</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 5000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 5000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
     <MinScaleDenominator>400000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 5000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 5000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 5000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 1000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 1000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
     <MinScaleDenominator>400000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 1000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 1000000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 500000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 500000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <Filter>([type] = 'fountain') and ([area] &gt; 500000)</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([area] &gt; 50000) and ([type] = 'fountain')</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <Filter>([area] &gt; 50000) and ([type] = 'fountain')</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>6500000</MaxScaleDenominator>
@@ -17173,12 +17173,12 @@
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <Filter>([type] = 'swimming_pool')</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <Filter>([type] = 'fountain')</Filter>
-    <PolygonSymbolizer fill="#859db6" gamma="0.3" />
+    <PolygonSymbolizer fill="#aabbcc" gamma="0.3" />
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
