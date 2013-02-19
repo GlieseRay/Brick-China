@@ -561,15 +561,16 @@
   }
   [zoom=16][priority<=7] {
     text-name: "[name]";
-    text-size: 12;
-  	text-min-distance: 180;
+    text-size: 14;
+  	text-min-distance: 60;
     text-spacing: 180;
-    text-character-spacing: 4;
+    //text-character-spacing: 4;
+    text-min-padding: 10;
   }
   [zoom>=17] { 
     text-name: "[name]";
   	text-size: 16; 
-    text-min-distance:240;
+    text-min-distance:60;
     text-spacing: 180;
     text-character-spacing: 4;
   }
