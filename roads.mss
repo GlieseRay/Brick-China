@@ -74,7 +74,7 @@
 // Road skeleton
 ///////////////////////////////////////////////////
 
-
+/*
 #road_overview[zoom>4][zoom<10] {
 
   [category='major_road']
@@ -787,3 +787,4 @@
   text-comp-op: multiply;
   text-placement: interior;
 }
+*/

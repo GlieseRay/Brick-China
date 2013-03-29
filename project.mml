@@ -240,7 +240,8 @@
         "srid": "4326"
       },
       "name": "road_z15",
-      "geometry": "linestring"
+      "geometry": "linestring",
+      "status": "off"
     },
     {
       "geometry": "linestring",
@@ -270,7 +271,8 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "road_z14"
+      "name": "road_z14",
+      "status": "off"
     },
     {
       "geometry": "linestring",
@@ -300,7 +302,8 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "road_z13"
+      "name": "road_z13",
+      "status": "off"
     },
     {
       "geometry": "linestring",
@@ -330,7 +333,8 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "road_z12"
+      "name": "road_z12",
+      "status": "off"
     },
     {
       "extent": [
@@ -359,7 +363,8 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "road_z11"
+      "name": "road_z11",
+      "status": "off"
     },
     {
       "extent": [
@@ -391,7 +396,8 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "road_z10"
+      "name": "road_z10",
+      "status": "off"
     },
     {
       "geometry": "linestring",
@@ -421,7 +427,8 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "road_overview"
+      "name": "road_overview",
+      "status": "off"
     },
     {
       "geometry": "point",
@@ -451,7 +458,8 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "places-all"
+      "name": "places-all",
+      "status": "off"
     },
     {
       "geometry": "linestring",
@@ -483,7 +491,8 @@
         "srid": "4326",
         "simplify_geometries": "yes"
       },
-      "name": "road-shield"
+      "name": "road-shield",
+      "status": "off"
     },
     {
       "geometry": "polygon",
@@ -513,7 +522,8 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "landusage-label"
+      "name": "landusage-label",
+      "status": "off"
     },
     {
       "geometry": "linestring",
@@ -546,7 +556,8 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "road-label"
+      "name": "road-label",
+      "status": "off"
     },
     {
       "extent": [
@@ -575,7 +586,8 @@
       "advanced": {
         "srid": "4326"
       },
-      "name": "road-label-gen1"
+      "name": "road-label-gen1",
+      "status": "off"
     }
   ],
   "scale": 1,

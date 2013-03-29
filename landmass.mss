@@ -3,7 +3,7 @@
 // Landmass
 ///////////////////////////////////////////////////
 #countries,
-#landmass[zoom>=9] {
+#landmass[zoom>=8] {
   polygon-fill: @land-color;
   polygon-gamma: 0.3;
 }
@@ -51,7 +51,7 @@
   polygon-fill: @water-color;
 }
 
-#sea[zoom>=9]{
+#sea[zoom>=8]{
   polygon-fill: @water-color;
   polygon-gamma: 0.3;
 }

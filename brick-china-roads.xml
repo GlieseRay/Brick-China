@@ -5269,7 +5269,7 @@
        <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
        <Parameter name="extent_cache"><![CDATA[custom]]></Parameter>
        <Parameter name="extent"><![CDATA[-180, -85,180,85]]></Parameter>
-       <Parameter name="host"><![CDATA[172.26.183.226]]></Parameter>
+       <Parameter name="host"><![CDATA[172.26.183.198]]></Parameter>
        <Parameter name="user"><![CDATA[postgres]]></Parameter>
        <Parameter name="password"><![CDATA[123456]]></Parameter>
        <Parameter name="dbname"><![CDATA[siwei_ch]]></Parameter>
@@ -5508,7 +5508,7 @@
        <Parameter name="extent_cache"><![CDATA[custom]]></Parameter>
        <Parameter name="extent"><![CDATA[-180,-85,180,85]]></Parameter>
        <Parameter name="srid"><![CDATA[4326]]></Parameter>
-       <Parameter name="host"><![CDATA[172.26.183.226]]></Parameter>
+       <Parameter name="host"><![CDATA[172.26.183.198]]></Parameter>
        <Parameter name="user"><![CDATA[postgres]]></Parameter>
        <Parameter name="password"><![CDATA[123456]]></Parameter>
        <Parameter name="dbname"><![CDATA[siwei_ch]]></Parameter>
@@ -5991,7 +5991,7 @@
        <Parameter name="extent_cache"><![CDATA[custom]]></Parameter>
        <Parameter name="extent"><![CDATA[-180,-85,180,85]]></Parameter>
        <Parameter name="srid"><![CDATA[4326]]></Parameter>
-       <Parameter name="host"><![CDATA[172.26.183.226]]></Parameter>
+       <Parameter name="host"><![CDATA[172.26.183.198]]></Parameter>
        <Parameter name="user"><![CDATA[postgres]]></Parameter>
        <Parameter name="password"><![CDATA[123456]]></Parameter>
        <Parameter name="dbname"><![CDATA[siwei_ch]]></Parameter>
@@ -6474,7 +6474,7 @@
        <Parameter name="extent_cache"><![CDATA[custom]]></Parameter>
        <Parameter name="extent"><![CDATA[-180,-85,180,85]]></Parameter>
        <Parameter name="srid"><![CDATA[4326]]></Parameter>
-       <Parameter name="host"><![CDATA[172.26.183.226]]></Parameter>
+       <Parameter name="host"><![CDATA[172.26.183.198]]></Parameter>
        <Parameter name="user"><![CDATA[postgres]]></Parameter>
        <Parameter name="password"><![CDATA[123456]]></Parameter>
        <Parameter name="dbname"><![CDATA[siwei_ch]]></Parameter>
@@ -6795,7 +6795,7 @@
        <Parameter name="extent_cache"><![CDATA[custom]]></Parameter>
        <Parameter name="extent"><![CDATA[-180,-85,180,85]]></Parameter>
        <Parameter name="srid"><![CDATA[4326]]></Parameter>
-       <Parameter name="host"><![CDATA[172.26.183.226]]></Parameter>
+       <Parameter name="host"><![CDATA[172.26.183.198]]></Parameter>
        <Parameter name="user"><![CDATA[postgres]]></Parameter>
        <Parameter name="password"><![CDATA[123456]]></Parameter>
        <Parameter name="dbname"><![CDATA[siwei_ch]]></Parameter>
@@ -7104,7 +7104,7 @@
        <Parameter name="extent_cache"><![CDATA[custom]]></Parameter>
        <Parameter name="extent"><![CDATA[-180,-85,180,85]]></Parameter>
        <Parameter name="srid"><![CDATA[4326]]></Parameter>
-       <Parameter name="host"><![CDATA[172.26.183.226]]></Parameter>
+       <Parameter name="host"><![CDATA[172.26.183.198]]></Parameter>
        <Parameter name="user"><![CDATA[postgres]]></Parameter>
        <Parameter name="password"><![CDATA[123456]]></Parameter>
        <Parameter name="dbname"><![CDATA[siwei_ch]]></Parameter>
@@ -7250,7 +7250,7 @@
        <Parameter name="extent_cache"><![CDATA[custom]]></Parameter>
        <Parameter name="extent"><![CDATA[-180,-85,180,85]]></Parameter>
        <Parameter name="srid"><![CDATA[4326]]></Parameter>
-       <Parameter name="host"><![CDATA[172.26.183.226]]></Parameter>
+       <Parameter name="host"><![CDATA[172.26.183.198]]></Parameter>
        <Parameter name="user"><![CDATA[postgres]]></Parameter>
        <Parameter name="password"><![CDATA[123456]]></Parameter>
        <Parameter name="dbname"><![CDATA[siwei_ch]]></Parameter>

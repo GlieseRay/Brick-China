@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE Map[]>
-<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" font-directory="/usr/share/fonts/Mac/" maximum-extent="-20037508.34,-20037508.34,20037508.34,20037508.34">
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" font-directory="/usr/share/fonts/Mac/" maximum-extent="-20037508.34,-20037508.34,20037508.34,20037508.34" background-color="#aabbcc" >
 
 <Parameters>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
@@ -20,7 +20,7 @@
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>countries</StyleName>
     <Datasource>
-       <Parameter name="file"><![CDATA[/home/ray/Documents/MapBox/project/Brick-China/layers/countries/82945364-10m-admin-0-countries.shp]]></Parameter>
+       <Parameter name="file"><![CDATA[layers/countries/82945364-10m-admin-0-countries.shp]]></Parameter>
        <Parameter name="type"><![CDATA[shape]]></Parameter>
        <Parameter name="srid"><![CDATA[900913]]></Parameter>
     </Datasource>
@@ -43,14 +43,14 @@
        <Parameter name="extent_cache"><![CDATA[custom]]></Parameter>
        <Parameter name="extent"><![CDATA[-180,-85,180,85]]></Parameter>
        <Parameter name="srid"><![CDATA[4326]]></Parameter>
-       <Parameter name="host"><![CDATA[172.26.183.226]]></Parameter>
+       <Parameter name="host"><![CDATA[172.26.183.198]]></Parameter>
        <Parameter name="user"><![CDATA[postgres]]></Parameter>
        <Parameter name="password"><![CDATA[123456]]></Parameter>
        <Parameter name="dbname"><![CDATA[siwei_ch]]></Parameter>
     </Datasource>
   </Layer>
 
-<Style name="urban-areas" filter-mode="first" >
+<Style name="urban-areas" filter-mode="first"  image-filters="agg-stack-blur(12,12)"  >
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
@@ -61,7 +61,7 @@
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
     <StyleName>urban-areas</StyleName>
     <Datasource>
-       <Parameter name="file"><![CDATA[/home/ray/Documents/MapBox/project/Brick-China/layers/urban-areas/ee9451c2-10m-urban-areas.shp]]></Parameter>
+       <Parameter name="file"><![CDATA[layers/urban-areas/ee9451c2-10m-urban-areas.shp]]></Parameter>
        <Parameter name="type"><![CDATA[shape]]></Parameter>
     </Datasource>
   </Layer>
@@ -83,7 +83,7 @@
        <Parameter name="extent_cache"><![CDATA[custom]]></Parameter>
        <Parameter name="extent"><![CDATA[-180,-85,180,85]]></Parameter>
        <Parameter name="srid"><![CDATA[4326]]></Parameter>
-       <Parameter name="host"><![CDATA[172.26.183.226]]></Parameter>
+       <Parameter name="host"><![CDATA[172.26.183.198]]></Parameter>
        <Parameter name="user"><![CDATA[postgres]]></Parameter>
        <Parameter name="password"><![CDATA[123456]]></Parameter>
        <Parameter name="dbname"><![CDATA[siwei_ch]]></Parameter>
@@ -134,7 +134,7 @@
        <Parameter name="geometry_field"><![CDATA[the_geom]]></Parameter>
        <Parameter name="extent_cache"><![CDATA[custom]]></Parameter>
        <Parameter name="extent"><![CDATA[-180,-85,180,85]]></Parameter>
-       <Parameter name="host"><![CDATA[172.26.183.226]]></Parameter>
+       <Parameter name="host"><![CDATA[172.26.183.198]]></Parameter>
        <Parameter name="user"><![CDATA[postgres]]></Parameter>
        <Parameter name="password"><![CDATA[123456]]></Parameter>
        <Parameter name="dbname"><![CDATA[siwei_ch]]></Parameter>
@@ -17809,7 +17809,7 @@
        <Parameter name="extent_cache"><![CDATA[custom]]></Parameter>
        <Parameter name="extent"><![CDATA[-180,-85,180,85]]></Parameter>
        <Parameter name="srid"><![CDATA[4326]]></Parameter>
-       <Parameter name="host"><![CDATA[172.26.183.226]]></Parameter>
+       <Parameter name="host"><![CDATA[172.26.183.198]]></Parameter>
        <Parameter name="user"><![CDATA[postgres]]></Parameter>
        <Parameter name="password"><![CDATA[123456]]></Parameter>
        <Parameter name="dbname"><![CDATA[siwei_ch]]></Parameter>
@@ -17846,7 +17846,7 @@
        <Parameter name="extent"><![CDATA[-20037508.342,-20037508.342,20037508.342,20037508.342]]></Parameter>
        <Parameter name="srid"><![CDATA[900913]]></Parameter>
        <Parameter name="dbname"><![CDATA[siwei_ch]]></Parameter>
-       <Parameter name="host"><![CDATA[172.26.183.226]]></Parameter>
+       <Parameter name="host"><![CDATA[172.26.183.198]]></Parameter>
        <Parameter name="user"><![CDATA[postgres]]></Parameter>
        <Parameter name="password"><![CDATA[123456]]></Parameter>
     </Datasource>

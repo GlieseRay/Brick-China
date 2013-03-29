@@ -8,8 +8,8 @@ datadir = '/home/pset/proj/geodata'
 themedir= './themes/Brick_China/'
 cachedir= os.path.join(themedir, 'cache')
 
-tag = 'Brick-CH'
-tile_size = 256
+tag = 'Brick-CH_HD'
+tile_size = 512
 
 fmt = 'jpg'
 
@@ -147,21 +147,21 @@ composer=dict(\
 ROOT = dict(\
     renderer='composer',
     metadata=dict(tag=tag,
-                  version='3.0',
+                  version='2.0',
                   description='Brick - China Road Map',
                   attribution='Open Street Map, Natural Earth',
                   ),
-    storage=dict(prototype='cluster',
-               stride=16,
+    cache=dict(prototype='cluster',
+               stride=8,
                servers=['localhost:11211',],
-               root=os.path.join(cachedir, 'export', '%s_take2' % tag),
+               root=os.path.join(cachedir, 'export', '%s' % tag),
               ),
     pyramid=dict(levels=range(2, 19),
 #                 envelope=(77,15,134,50),                 
                  zoom=8,
                  center=(121.751,31.311),
                  format=fmt,
-                 buffer=8,
+                 buffer=0,
                  tile_size=tile_size,
                  ),
 )
